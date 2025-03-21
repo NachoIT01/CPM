@@ -1,0 +1,112 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.section {
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.car img {
+    width: 200px; /* Ancho fijo */
+    height: 150px; /* Alto fijo */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    border-radius: 10px;
+}
+
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.car p {
+    color: #bbb;
+}
+
+
+.paypal-button {
+    display: inline-block;
+    background-color: #0070ba;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.paypal-button:hover {
+    background-color: #005a94;
+}
+
+
+.instagram-button {
+    display: inline-block;
+    background-color: #E4405F; /* Color de Instagram */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.instagram-button:hover {
+    background-color: #C13584;
+}
+
+
+#credits {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 30px;
+    color: #bbb;
+}
